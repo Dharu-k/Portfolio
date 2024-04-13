@@ -1,1 +1,99 @@
 
+/* styles.css */
+
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease; /* Example of a transition */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    transition: background-color 0.3s ease; /* Example of a transition */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Example of a transition */
+}
+
+header nav ul li a:hover {
+    color: #ffcc00; /* Example of a hover effect */
+}
+
+section {
+    padding: 20px;
+    transition: transform 0.3s ease; /* Example of a transition */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Different background colors for sections */
+
+#home {
+    background-color: #f0f0f0; /* Light gray */
+}
+
+#about {
+    background-color: #66ccff; /* Light blue */
+}
+
+#skills {
+    background-color: #ff9999; /* Light red */
+}
+
+#internships {
+    background-color: #99ff99; /* Light green */
+}
+
+/* Animations */
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply animations to specific elements */
+
+header {
+    animation: slideInFromLeft 1s ease; /* Example of an animation */
+}
+
+section {
+    animation: fadeIn 1s ease; /* Example of an animation */
+}
