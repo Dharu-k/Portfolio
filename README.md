@@ -1,5 +1,3 @@
-You can access my portfolio through the link : https://dharu-k.github.io/Portfolio/
-
 Welcome to my portfolio website! This website serves as a showcase of my skills, experiences, and projects. Whether you're a potential employer, client, or collaborator, I invite you to explore my work and learn more about what I have to offer.
 
 About Me :
